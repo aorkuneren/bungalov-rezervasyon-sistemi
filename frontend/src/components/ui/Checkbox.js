@@ -53,7 +53,7 @@ const Checkbox = forwardRef(({
 
   return (
     <div className="w-full">
-      <label className={`flex items-start space-x-3 cursor-pointer ${disabled ? 'cursor-not-allowed' : ''}`}>
+      <label className={`flex items-center space-x-3 cursor-pointer ${disabled ? 'cursor-not-allowed' : ''}`}>
         <div className="relative flex-shrink-0">
           <input
             ref={ref}

@@ -67,7 +67,7 @@ const TabContent = ({
             });
           }}
           size="md"
-          helperText="30 gün boyunca otomatik giriş yapabilirsiniz"
+          
         />
       </div>
 
